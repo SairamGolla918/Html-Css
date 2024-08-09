@@ -4,8 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .con{
+            display: flex;
+        }
+        .container{
+            margin-top: 200px;
+            padding: 100px;
+            margin-left: 100px;
+        }
+        .container p{
+            color: black;
+        }
+        .container h1{
+            color:blue;
+        }
+        .form-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px none;
+            width: 300px;
+            height: 350px;
+            margin-top: 250px;
+            display: flow-root;
+            display: flexbox;
+            box-shadow:0px 2px 4px rgba(0,0,0,0.2) ;
+        }
+        .in{
+            margin-left: 55px;
+            margin-top: 30px;
+            /* margin: 25px; */
+            padding: 5px;
+        }
+        .inb1{
+            border: none ;
+            border-radius: 5px;
+            margin-left: 55px;
+            margin-top: 30px;
+            /* margin: 20px; */
+            background-color: rgb(0, 30, 255);
+            color: whitesmoke;
+            padding: 5px;
+            width: 185px;
+        }
+        .inb2{
+            border: none ;
+            border-radius: 5px;
+            margin-left: 55px;
+            margin-top: 30px;
+            width: 185px;
+            background-color: rgb(6, 230, 6);
+            color: whitesmoke;
+            /* margin: 20px; */
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
+    <div class="con">
+        <div class="container">
+            <h1>facebook</h1>
+            <p>Faceboob helps you to connect us togeather</p>
+        </div>
+        <div class="form-container">
+            <form action="">
+                <input type="text" class="in" placeholder="Email or Phone">
+                <input type="password" class="in" placeholder="password">
+                <button class="inb1">login</button>
+                <br>
+                <p style="margin-left: 85px;">Forgot password ?</p>
+                <br>
+                <button class="inb2">Sign Up</button>
+
+            </form>
+        </div>
+    </div>
     
 </body>
 </html>
