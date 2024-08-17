@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon"  href="/ass/images/Netflix-Logo.png">
+    <style>
+        .navbar{
+            background-color: silver;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        *{
+            margin: 0px;
+            /* margin-left: 10px;
+            margin-right: 10px; */
+        }
+        a{
+            text-decoration: none;
+        }
+        li
+        {
+            display: inline-block;
+            padding: 5px;
+        }
+        .menu:hover .sub-menu
+        {
+            display: block;
+        }
+        .sub-menu
+        {
+            display:none;
+            position: absolute;
+            padding: 5px;
+        }
+        ul{
+            background-color:silver;
+            margin: 0px;
+            padding: 0px;
+            left: 100px;
+            text-align: right;
+
+        }
+        
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <div class="Company">
+        <h1>Company</h1>
+    </div>
+    <div class="total">
+        <ul>
+            <li>Home</li>
+            <li class="menu">Course
+
+                <div class="sub-menu">
+                    <a href="#">Java</a><br>
+                    <a href="#">Python</a>
+                </div>
+            </li>
+            <li>About</li>
+            <li>Login</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
